@@ -1,7 +1,7 @@
 from slack_notifications import *
 
 if __name__ == '__main__':
-    slack = Slack("xoxb-3806488898081-3791000388229-JREDWQqH4WrsGB49fui8rmkU")
+    slack = Slack("xoxb-3806488898081-3791000388229-HYIYmwODDKSpZ0bVT5QkOiTi")
     attachment = Attachment(
         # color = "#2eb886",
         # title = "너의 절친 에덴이 원붕이에게",
