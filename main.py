@@ -1,7 +1,9 @@
+import os
 from slack_notifications import *
 
 if __name__ == '__main__':
-    slack = Slack("xoxb-")
+    SLACK_TOKEN = os.environ("SLACK_TOKEN")
+    slack = Slack(SLACK_TOKEN)
     attachment = Attachment(
         # color = "#2eb886",
         # title = "너의 절친 에덴이 원붕이에게",
