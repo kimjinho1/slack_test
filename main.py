@@ -2,7 +2,7 @@ import os
 from slack_notifications import *
 
 if __name__ == '__main__':
-    SLACK_TOKEN = os.environ("SLACK_TOKEN")
+    SLACK_TOKEN = os.environ["SLACK_TOKEN"]
     slack = Slack(SLACK_TOKEN)
     attachment = Attachment(
         # color = "#2eb886",
